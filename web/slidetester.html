@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sokolink | Be Seen</title>
+        <link href="resources/css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/header.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="resources/css/jquery.bxslider.css" rel="stylesheet" type="text/css"/>
+        <script src="resources/js/slider/jquery-1.8.2.min.js" type="text/javascript"></script>
+        <script src="resources/js/slider/jquery.bxslider.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+             //Replace the default jquery alias$ to avoid conflicts with 
+             //similar alias in Primefaces javascript
+             var $j = jQuery.noConflict(); 
+            $j(document).ready(function () {
+                $j('.bxslider').bxSlider({
+                    auto:true,
+                    autocontrols: true,
+                    captions: true,
+                    mode: 'fade',
+                    pause: 4000,
+                    speed: 8000,
+                    easing: 'swing',
+                    pager: true});
+            });
+        </script>
+  </head>
+
+  <body>
+      <div id="main-advert">
+          <ul class="bxslider">
+              <li><img src="resources/images/adverts/cereals.jpg" alt="sdsa" width="600" height="300"/></li>
+              <li><img src="resources/images/adverts/cereals2.jpg" alt="sdsa" width="600" height="300"/></li>
+              <li><img src="resources/images/adverts/cereals3.jpg" alt="sdsa" width="600" height="300"/></li>
+              <li><img src="resources/images/adverts/construct.jpg" alt="sdsa" width="600" height="300"/></li>
+              <li><img src="resources/images/adverts/construct2.jpg" alt="sdsa" width="600" height="300"/></li>
+            
+        </ul>
+      </div>
+  </body>
+</html>
