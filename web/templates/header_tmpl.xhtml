@@ -5,9 +5,26 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:p="http://primefaces.org/ui">
     <ui:composition>
-        <div id="contacts">Need Support?  +254 797 783251</div>
-        <div id="navigation">
-            <p:graphicImage name="logo3.png" library="images"/>
+        <div id="contacts">
+            <ul>
+                <li><a href="#">For Manufacturers</a>
+                    <ul>
+                        <li><a href="#">Find Suppliers</a></li>
+                        <li><a href="#">Add Location</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">For Suppliers</a></li>
+                <li><a href="#">Assistance</a>
+                    <ul>
+                        <li><a href="#">Call +254 797 783251</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Sign In | Join</a></li>
+            </ul>
+        </div>
+        <p:graphicImage id="logo" name="logo3.png" library="images" />
+<!--        <div id="navigation">
             <ul>
                 <li><a href="#">Products</a>
                     <ul>
@@ -17,14 +34,14 @@
                                 <td><li><a href="#">HEALTHCARE</a></li></td>
                                 <td><li><a href="#">HARDWARE</a></li></td>
                                 <td><li><a href="#">INDUSTRIAL</a></li></td>
-                                <!--<td><li><a href="#">FARM</a></li></td>-->
+                                <td><li><a href="#">FARM</a></li></td>
                             </tr>
                             <tr>
                                 <td><li><a href="#">Foodstuff</a></li></td>
                                 <td><li><a href="#">Costmetics</a></li></td>
                                 <td><li><a href="#">Tiles&amp;Ceramics</a></li></td>
                                 <td><li><a href="#">Paints</a></li></td>
-                                <!--<td><li><a href="#">Pesticides</a></li></td>-->
+                                <td><li><a href="#">Pesticides</a></li></td>
                             </tr>
                             <tr>
                                 <td><li><a href="#">Containers</a></li></td>
@@ -85,7 +102,7 @@
                 <li id="user"><a href="#">Register</a></li>
                 <li id="user"><a href="#">Login</a></li>
             </ul>
-        </div>
+        </div>-->
         <div id="search-bar">
             <h:form id="frmMainSearch">
                 <p:inputText id="search2" value="" placeholder="Find Products, Suppliers or Manufacturers"/>

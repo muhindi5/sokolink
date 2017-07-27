@@ -1,0 +1,42 @@
+/*
+ Bitforge Software Labs
+ (c)2017 
+ http://bitforge.co.ke
+ <muhindi@bitforge.co.ke><muhindi09@gmail.com>
+*/
+/* 
+    Created on : Jul 19, 2017, 9:12:34 AM
+    Author     : kelly
+    Global catalog menu
+*/
+
+#category-menu{
+    width: 15%;
+    position: absolute;
+    height: 600px;
+    background:#29ABE2;
+    float: left;
+}
+
+#category-menu ul,li,a,h3{
+    font-family: Arial,sans-serif;
+    background:none;
+    color: white;
+    font-weight: bold;
+}
+
+#category-menu a,h3{
+    display: block;
+    padding:10px 3px 15px 20px;
+    text-align:left;
+    border:solid 1px white;
+}
+
+#category-menu h3{
+    border-top:none;
+}
+
+#category-menu a:hover{
+    background:white;
+    color: #494658;
+}

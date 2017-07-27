@@ -4,4 +4,7 @@ nbproject/*
 !nbproject/project.properties
 dist/
 *.class
+*.jpg
+*.jar
+web/resources/images/adverts/
 

@@ -39,6 +39,47 @@ hr{
     font-weight:bold;
 }
 
+#contacts ul{
+    font-size:small;
+    font-family:Arial,sans-serif;
+    background:none;
+}
+
+#contacts > ul > li{
+    list-style: none;
+    display:inline-block;
+    width: 120px;
+}
+
+#contacts ul li a{
+    display: block;
+    width:120px;
+    padding: 5px 4px 5px  4px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+#contacts ul ul{
+    z-index: 30;
+    position: absolute;
+    visibility: hidden;
+    background:#6CBF00;
+}
+
+#contacts > ul > li:hover ul{
+    visibility: visible;
+}
+
+img#logo{
+    float: left;
+    display: inline-block;
+    margin-top: 3px;
+
+}
+
+
+
 /*Navigation bar*/
 #navigation{
     width:100%;
@@ -116,10 +157,13 @@ hr{
 
 /*Site banner*/
 #search-bar{
-    width: 100%;
-    box-shadow: -3px 5px 8px 1px #9b9ea0;
+    margin-top:3px;
+    display: inline-block;
+    width: 87%;
+    /*box-shadow: -3px 5px 8px 1px #9b9ea0;*/
     padding: 5px 5px;
     background:#29ABE2;
+    z-index:20;
 }
 
 #search-bar form{
